@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+    --bg-color: #0014af;
+    --font-color: #ce0c0c;
+    --border-color: #000000;
+}
+
+body {
+ background-color: var(--bg-color);
+ text-align: center;
+}
+
+h1 {
+    color: var(--font-color);
+    font-size: 50px;
+    font-family: "Anton", serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.main-container { 
+    background-color: var(--font-color);
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    margin-left: 450px;
+    border: var(--border-color), solid, 2px;
+    border-radius: 0.4rem;
+
+}
+
+.main-container-content {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.main-container-content h2 {
+    color: var(--bg-color);
+    font-size: 20px;
+    font-family: "Anton", serif; 
+    
+    
+}
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 150px;
+    
+}
+
+.buttons #Rock, #Paper, #Scissors{
+    font-size: 20px;
+    font-family: "Anton", serif;
+    height: 40px;
+    width: 40px;
+    border: var(--border-color), solid, 3px;
+    border-radius: 4.0rem;
+    color: var(--font-color);
+    background: var(--bg-color);
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.buttons #Rock:hover{
+    background: var(--border-color);
+}
+
+.buttons #Paper:hover{
+    background: var(--border-color);
+}
+
+.buttons #Scissors:hover{
+    background: var(--border-color);
+}
+
+
+
+
+
+
+
+
